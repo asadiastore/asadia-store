@@ -14284,12 +14284,24 @@ li {
           justify-content: space-between;
 }
 
-/*----  Site Logo  ----*/
-.header-logo {
-  text-align: left;
+/* ✅ FINAL LOGO FIX */
+.ec-header .logo,
+.header .logo,
+.logo {
+    display: block !important;
+    max-height: 65px !important;
+    width: auto !important;
+    object-fit: contain !important;
 }
+
+.ec-header-logo img,
 .header-logo img {
-  width: 130px;
+    width: auto !important;
+    height: 65px !important;
+}
+
+.dark-logo {
+    display: none !important;
 }
 
 /*----  Header Button Actions  ----*/
