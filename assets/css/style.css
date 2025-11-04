@@ -1,10 +1,10 @@
+@charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
     Item Name: Asadia Store - Ecommerce HTML Template + Admin Dashboard.
-    Author: Asad Malik
+    Author: Asadmalik
     Version: 3.7
-    Copyright 2023
-	Author URI: https://themeforest.net/user/ashishmaraviya
+    Copyright 2025
 
 -----------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------
@@ -12,9 +12,55 @@
 -----------------------------------------------------------------------------------
 
 01. Typography
-02. Utilities
-03. style.css
-04. Responsive css
+02. Components
+    - Helper
+    - Common
+    - Popup Model
+    - Breadcrumb
+03. Layout 
+    - Header Section
+    - Mainslider Section
+    - Product Tab Section
+    - Banner Section
+    - Category Section
+    - Specials Section
+    - Services Section
+    - Offer Section
+    - New Product Section
+    - Testimonial Section
+    - Brand Section
+    - Instagram Section
+    - Footer Section
+    - Quickview Section
+    - Category Section
+    - Category Sidebar
+04. Pages
+    - Shop Page
+    - Login Page
+    - Register Page
+    - About us Page
+    - Term Page
+    - Contact us Page
+    - Faq Page
+    - Single Product Page
+    - Blog Page
+    - Cart Page
+    - Compare Page
+    - Track Order Page
+    - Checkout Page    
+    - Elements Tabs Page
+    - Elements Categories Page
+    - Elements Buttons Page
+    - Elements Products Page
+    - Elements Title Page
+    - Elements Coming-Soon Page
+    - Elements Blog Page
+    - Elements Typography Page
+    - Vendor Page
+    - User Page
+    - Offer Page
+    - Thank you Page
+
 -----------------------------------------------------------------------------------*/
 /*-------------------------------------------------
   Fonts Family & Style CSS
