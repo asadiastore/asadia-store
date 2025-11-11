@@ -31900,3 +31900,12 @@ input[type=email]:focus::-webkit-input-placeholder {
   color: #777;
 }
 /*# sourceMappingURL=style.css.map */
+.ec-header-bottons a,
+.ec-header-bottons button,
+.ec-header-bottons i {
+    display: inline-flex !important;
+}
+
+.ec-header-bottons {
+    display: flex !important;
+}
