@@ -31909,3 +31909,24 @@ input[type=email]:focus::-webkit-input-placeholder {
 .ec-header-bottons {
     display: flex !important;
 }
+/* ✅ FIX: Mobile Header Icons Not Showing */
+@media (max-width: 991px) {
+    .ec-header-bottons,
+    .ec-header-bottons a,
+    .ec-header-bottons button,
+    .ec-header-btn {
+        display: flex !important;
+        align-items: center !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .ec-header-bottons {
+        gap: 10px;
+    }
+
+    /* Some templates hide icons by mistake */
+    .ec-header .header-top .col.d-lg-none {
+        display: block !important;
+    }
+	}
