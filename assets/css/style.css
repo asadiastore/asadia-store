@@ -163,10 +163,74 @@ body {
   outline: 0;
 }
 
+/* Base font family */
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 60px 20px;
+  background-color: #000000;
+  text-align: center;
+}
+
+/* ASADIA — STORE */
+.hero-section h1 {
+  font-weight: 800; /* ExtraBold */
+  font-size: calc(2rem + 2vw);
+  color: #b30000;
+  margin-bottom: 10px;
+}
+
+/* Premium International Fashion Store */
+.hero-section h2 {
+  font-weight: 700; /* Bold */
+  font-size: calc(1.5rem + 1.5vw);
+  color: #b30000;
+  margin-bottom: 15px;
+}
+
+/* QUALITY. EFFICIENCY. TRUST. */
+.hero-section h3 {
+  font-weight: 600; /* SemiBold */
+  font-size: calc(1.3rem + 1vw);
+  color: #b30000;
+  margin-bottom: 10px;
+}
+
+/* LUXURY | LEGACY | LIFESTYLE */
+.hero-section h4 {
+  font-weight: 500; /* Medium */
+  font-size: calc(1.2rem + 0.8vw);
+  color: #b30000;
+  margin-bottom: 10px;
+}
+
+/* PROFICIENT WHOLESALER */
+.hero-section h5 {
+  font-weight: 400; /* Regular */
+  font-size: calc(1.1rem + 0.5vw);
+  color: #b30000;
+  margin-bottom: 8px;
+}
+
+/* All MEN WEAR */
+.hero-section h6 {
+  font-weight: 400; /* Regular */
+  font-size: calc(1rem + 0.3vw);
+  color: #b30000;
+  margin-bottom: 5px;
+}
+
+/* Shining Divider */
 hr.shining {
   border: none;
   height: 2px;
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 60%;
   background-image: linear-gradient(90deg, #b30000, #ffffff, #b30000);
   background-size: 200% 100%;
   animation: shine 2s infinite linear;
@@ -183,7 +247,7 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   font-size: 1rem;
-  color: #ffffff;
+  color: #b30000;
 }
 
 .h6 {
@@ -192,7 +256,7 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   font-size: 1rem;
-  color: #ffffff;
+  color: #b30000;
 }
 
 h5 {
@@ -201,7 +265,7 @@ h5 {
   font-weight: 500;
   line-height: 1.2;
   font-size: 1.25rem;
-  color: #ffffff;
+  color: #b30000;
 }
 
 .h5 {
@@ -210,7 +274,7 @@ h5 {
   font-weight: 500;
   line-height: 1.2;
   font-size: 1.25rem;
-  color: #ffffff;
+  color: #b30000;
 }
 
 h4 {
@@ -219,7 +283,7 @@ h4 {
   font-weight: 500;
   line-height: 1.2;
   font-size: calc(1.275rem + 0.3vw);
-  color: #ffffff;
+  color: #b30000;
 }
 
 .h4 {
@@ -228,7 +292,7 @@ h4 {
   font-weight: 500;
   line-height: 1.2;
   font-size: calc(1.275rem + 0.3vw);
-  color: #ffffff;
+  color: #b30000;
 }
 
 h3 {
@@ -237,7 +301,7 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   font-size: calc(1.3rem + 0.6vw);
-  color: #ffffff;
+  color: #b30000;
 }
 
 .h3 {
@@ -246,7 +310,7 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   font-size: calc(1.3rem + 0.6vw);
-  color: #ffffff;
+  color: #b30000;
 }
 
 h2 {
