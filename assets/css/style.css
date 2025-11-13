@@ -14423,7 +14423,7 @@ li {
   text-align: left;
 }
 .header-logo img {
-  width: 130px;
+  width: 280px;
 }
 
 .header_svg {
@@ -14484,15 +14484,15 @@ li {
 }
 .ec-header-bottons .ec-header-btn:hover {
   color: #ffffff;
-  background: #f3825d;
-  border-color: #f3825d;
+  background: #b30000;
+  border-color: #eeeeee;
   box-shadow: 0 0 10px 0 rgba(35, 31, 32, 0.1);
   -webkit-box-shadow: 0 0 10px 0 rgba(35, 31, 32, 0.1);
   -moz-box-shadow: 0 0 10px 0 rgba(35, 31, 32, 0.1);
 }
 .ec-header-bottons .ec-header-btn:hover .ec-btn-title {
   color: #ffffff;
-  border-color: #f3825d;
+  border-color: #b30000;
 }
 .ec-header-bottons .ec-header-btn:hover .header_svg {
   fill: #ffffff;
@@ -14515,7 +14515,7 @@ li {
   text-align: center;
   color: #ffffff;
   border-radius: 50%;
-  background-color: #202b3a;
+  background-color: #b30000;
 }
 .ec-header-bottons .ec-header-btn.dropdown-toggle::after {
   display: none;
@@ -14531,7 +14531,7 @@ li {
   transition: all 0.3s ease-in-out;
 }
 .ec-header-bottons .ec-header-user .dropdown-toggle:hover .header_svg {
-  fill: #f3825d;
+  fill: #b30000;
 }
 .ec-header-bottons .ec-header-user .dropdown-toggle i {
   font-size: 20px;
@@ -14556,10 +14556,10 @@ li {
   color: #444444;
 }
 .ec-header-user .dropdown-toggle:hover {
-  color: #f3825d;
+  color: #b30000;
 }
 .ec-header-user .dropdown-toggle::after {
-  display: none;
+  display: Block;
 }
 .ec-header-user .dropdown-menu {
   margin: 0;
@@ -14585,21 +14585,21 @@ li {
 }
 .ec-header-user .dropdown-menu .dropdown-item {
   padding: 7px;
-  color: #444444;
+  color: #b30000;
   font-size: 14px;
   background: transparent;
   text-transform: capitalize;
 }
 .ec-header-user .dropdown-menu .dropdown-item:hover {
-  color: #f3825d;
+  color: #b30000;
 }
 
 /*-----  Category Menu  -----*/
 #ec-category-menu {
-  display: none;
+  display: block;
   width: 100%;
-  background: #ffffff none repeat scroll 0 0;
-  border: 1px solid #eeeeee;
+  background: #b30000 none repeat scroll 0 0;
+  border: 1px solid #00000;
   border-top: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -14610,7 +14610,7 @@ li {
   left: 15px;
   right: auto;
   top: 100%;
-  display: none;
+  display: Block;
 }
 #ec-category-menu .ec-cat-menu-link {
   display: block;
@@ -14622,13 +14622,13 @@ li {
   text-transform: capitalize;
 }
 #ec-category-menu .ec-cat-menu-link:hover {
-  color: #f3825d;
+  color: #b30000;
 }
 #ec-category-menu .ec-cat-menu-link .svg_img {
   margin-right: 10px;
 }
 #ec-category-menu li:not(:last-child) {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #b30000;
 }
 
 .ec-category-menu .ec-category-toggle {
@@ -14639,7 +14639,7 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #f3825d;
+  background: #b30000;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -14656,7 +14656,7 @@ li {
   font-size: 18px;
   text-transform: uppercase;
   color: #ffffff;
-  background: #f3825d;
+  background: #b30000;
   height: 20px;
   width: 20px;
   border-radius: 100%;
@@ -14676,7 +14676,7 @@ li {
 div#ec-main-menu-desk {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #fff;
+  background: #fefefe;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }
@@ -14723,7 +14723,7 @@ div#ec-main-menu-desk {
   background: #ffffff;
   padding: 20px 0px 30px 30px;
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
   left: 0;
   width: 100%;
   z-index: 2;
@@ -14748,7 +14748,7 @@ div#ec-main-menu-desk {
   height: auto;
 }
 .ec-main-menu ul li .mega-menu li ul li.menu_title a:hover {
-  color: #f3825d;
+  color: #b30000;
 }
 .ec-main-menu ul li .mega-menu li ul li a {
   height: auto;
@@ -14762,7 +14762,7 @@ div#ec-main-menu-desk {
   border: 0;
 }
 .ec-main-menu ul li .mega-menu li ul li a:hover {
-  color: #f3825d;
+  color: #b30000;
 }
 .ec-main-menu ul li .mega-menu ul.ec-main-banner {
   margin-top: 20px;
@@ -14776,7 +14776,7 @@ div#ec-main-menu-desk {
   padding: 0;
   margin: 0;
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   border-radius: 0;
 }
 .ec-main-menu ul li.dropdown {
@@ -14787,7 +14787,7 @@ div#ec-main-menu-desk {
   z-index: 9;
   text-align: left;
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
   min-width: 200px;
   left: auto;
   background: #ffffff;
@@ -14824,7 +14824,7 @@ div#ec-main-menu-desk {
           align-items: center;
 }
 .ec-main-menu ul li.dropdown ul li a:hover {
-  color: #f3825d;
+  color: #b30000;
 }
 .ec-main-menu ul li.dropdown li.position-static {
   position: relative !important;
@@ -14835,8 +14835,8 @@ div#ec-main-menu-desk {
 }
 .ec-main-menu ul li.dropdown ul.sub-menu.sub-menu-child {
   left: 100% !important;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
   top: 0;
 }
 .ec-main-menu ul li.dropdown:hover .sub-menu {
@@ -14862,14 +14862,14 @@ div#ec-main-menu-desk {
   transition: all 0.3s ease 0s;
 }
 .ec-main-menu > ul > li:hover > a {
-  color: #f3825d;
+  color: #b30000;
 }
 .ec-main-menu > ul > li:hover > a:before {
-  background: #f3825d;
+  background: #b30000;
   width: 100%;
 }
 .ec-main-menu > ul > li.active > a:before {
-  background: #f3825d;
+  background: #b30000;
   width: 100%;
 }
 
@@ -14910,7 +14910,7 @@ div#ec-main-menu-desk {
   display: flex;
   border: 1px solid #eeeeee;
   border-radius: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .search_svg {
@@ -14927,7 +14927,7 @@ div#ec-main-menu-desk {
 .submit .header_svg {
   width: 14px;
   height: 14px;
-  fill: #f3825d;
+  fill: #b30000;
   margin-bottom: 1px;
 }
 
@@ -14997,7 +14997,7 @@ div#ec-main-menu-desk {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   height: 100%;
-  background: #f3825d;
+  background: #b30000;
   color: #ffffff;
   font-size: 14px;
   -webkit-box-shadow: none;
@@ -15015,7 +15015,7 @@ div#ec-main-menu-desk {
 }
 
 body.ec-open {
-  overflow: hidden;
+  overflow: auto;
 }
 body.ec-open:before {
   height: 100%;
@@ -15036,7 +15036,7 @@ body.ec-open:before {
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 17;
-  display: none;
+  display: block;
 }
 
 .ec-side-cart {
@@ -15060,7 +15060,7 @@ body.ec-open:before {
           box-shadow: none;
   overflow: auto;
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
 }
 .ec-side-cart .ec-cart-inner {
   position: relative;
