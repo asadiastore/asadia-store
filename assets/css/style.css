@@ -613,7 +613,7 @@ optgroup {
 textarea {
   margin: 0;
   font-family: inherit;
-  font-size: inherit;
+  font-size: inherit; 
   line-height: inherit;
   resize: vertical;
   width: 100%;
@@ -753,7 +753,7 @@ progress {
 
 .img-thumbnail {
   padding: 4px;
-  background-color: #ffffff;
+  background-color: #fafaf0;
   border: 1px solid #eeeeee;
   border-radius: 4px;
   max-width: 100%;
@@ -771,7 +771,7 @@ progress {
 
 .figure-caption {
   font-size: 0.875rem;
-  color: #6C757D;
+  color: #333333;
 }
 
 .container {
@@ -1176,43 +1176,43 @@ progress {
 }
 
 .table-primary {
-  color: #000000;
-  border-color: #e6c2a7;
+  color: #333333;
+  border-color: #d90000;
 }
 
 .table-secondary {
-  color: #000000;
-  border-color: #c1c2c5;
+  color: #333333;
+  border-color: #d90000;
 }
 
 .table-success {
-  color: #000000;
-  border-color: #acc7ba;
+  color: #333333;
+  border-color: #ffc035;
 }
 
 .table-info {
-  color: #000000;
-  border-color: #a8d8e2;
+  color: #333333;
+  border-color: #d90000;
 }
 
 .table-warning {
-  color: #000000;
-  border-color: #e6d6a7;
+  color: #333333;
+  border-color: #ffc035;
 }
 
 .table-danger {
-  color: #000000;
-  border-color: #a7a7a7;
+  color: #333333;
+  border-color: #d90000;
 }
 
 .table-light {
-  color: #000000;
-  border-color: #dfe0e1;
+  color: #333333;
+  border-color: #fafaf0;
 }
 
 .table-dark {
-  color: #ffffff;
-  border-color: #484e53;
+  color: #ffc035;
+  border-color: #333333;
 }
 
 .table-responsive {
@@ -1247,7 +1247,7 @@ progress {
 .form-text {
   margin-top: 4px;
   font-size: 0.875rem;
-  color: #6C757D;
+  color: #333333;
 }
 
 .form-control {
@@ -1258,10 +1258,10 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
-  background-color: #ffffff;
+  color: #333333;
+  background-color: #fafaf0;
   background-clip: padding-box;
-  border: 1px solid #CED4DA;
+  border: 1px solid #333333;
   -webkit-appearance: none;
   -moz-appearance: none;
        appearance: none;
@@ -1277,51 +1277,51 @@ progress {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.625;
-  color: #444444;
+  color: #333333;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: #fafaf0;
 }
 .form-control:focus {
-  color: #495057;
-  background-color: #ffffff;
-  border-color: #ffb984;
+  color: #d90000;
+  background-color: #fafaf0;
+  border-color: #d90000;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 4px rgba(255, 112, 4, 0.25);
-          box-shadow: 0 0 0 4px rgba(255, 112, 4, 0.25);
-  color: #495057;
-  background-color: #ffffff;
-  border-color: #ced4da;
+  -webkit-box-shadow: 0 0 0 4px rgba(217, 0, 0, 0.25);
+          box-shadow: 0 0 0 4px rgba(217, 0, 0, 0.25);
+  color: #d90000;
+  background-color: #fafaf0;
+  border-color: #d90000;
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 .form-control::-webkit-input-placeholder {
-  color: #6C757D;
+  color: #333333;
   opacity: 1;
 }
 .form-control::-moz-placeholder {
-  color: #6C757D;
+  color: #333333;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #6C757D;
+  color: #333333;
   opacity: 1;
 }
 .form-control::-ms-input-placeholder {
-  color: #6C757D;
+  color: #333333;
   opacity: 1;
 }
 .form-control::placeholder {
-  color: #6C757D;
+  color: #333333;
   opacity: 1;
 }
 .form-control:disabled {
-  background-color: #E9ECEF;
+  background-color: #333333;
   opacity: 1;
 }
 
 .form-control[readonly] {
-  background-color: #E9ECEF;
+  background-color: #fafaf0;
   opacity: 1;
 }
 
@@ -1331,7 +1331,7 @@ progress {
   padding: 6px 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #444444;
+  color: #333333;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -1380,36 +1380,36 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #333333;
   vertical-align: middle;
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343A40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-color: #fafaf0;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23D90000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right 12px center;
   background-size: 16px 12px;
-  border: 1px solid #CED4DA;
+  border: 1px solid #333333;
   border-radius: 4px;
   -webkit-appearance: none;
   -moz-appearance: none;
        appearance: none;
 }
 .form-select:focus {
-  border-color: #ffb984;
+  border-color: #d90000;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 4px rgba(255, 112, 4, 0.25);
-          box-shadow: 0 0 0 4px rgba(255, 112, 4, 0.25);
+  -webkit-box-shadow: 0 0 0 4px rgba(215, 0, 0, 0.25);
+          box-shadow: 0 0 0 4px rgba(215, 0, 0, 0.25);
 }
 .form-select:focus::-ms-value {
-  color: #495057;
-  background-color: #ffffff;
+  color: #333333;
+  background-color: #fafaf0;
 }
 .form-select:disabled {
-  color: #6C757D;
-  background-color: #E9ECEF;
+  color: #333333;
+  background-color: #333333;
 }
 .form-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #495057;
+  text-shadow: 0 0 0 #d90000;
 }
 
 .form-select[multiple] {
@@ -1475,7 +1475,7 @@ progress {
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
 }
-.form-check-input:focus {
+.form-check-input:focus   {
   border-color: #ffb984;
   outline: 0;
   -webkit-box-shadow: 0 0 0 4px rgba(255, 112, 4, 0.25);
