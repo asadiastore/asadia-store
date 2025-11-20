@@ -13744,32 +13744,32 @@ li {
 }
 
 .btn-primary {
-  color: #ffffff;
-  background-color: #800000;
-  border-color: #800000;
+  color: #333333;
+  background-color: #d90000;
+  border-color: #ffc035;
   border: 0.5;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .btn-primary:hover {
-  color: #ffffff;
-  background-color: #dc143c;
-  border-color: #dc143c;
+  color: #333333;
+  background-color: #ffc035;
+  border-color: #d90000;
 }
 .btn-primary:focus {
-  color: #ffffff;
-  background-color: #DC143C;
-  border-color: #800000;
+  color: #333333;
+  background-color: #ffc035;
+  border-color: #d90000;
 }
 .btn-primary:active {
-  color: #000000;
-  background-color: #ffc035;
-  border-color: #800000;
+  color: #333333;
+  background-color: #d90000;
+  border-color: #ffc035;
 }
 
 .btn-color-dark {
-  background-color: #800000;
-  border-color: #dc143c;
+  background-color: #ffc035;
+  border-color: #d90000;
   color: #ffffff;
   font-weight: 500;
   font-size: 14px;
@@ -13779,9 +13779,9 @@ li {
 }
 
 .btn-hover-color-primary:hover {
-  color: #ffffff;
-  background-color: #dc143c;
-  border-color: #800000;
+  color: #333333;
+  background-color: #d90000;
+  border-color: #ffc035;
 }
 
 .btn-check:focus + .btn {
@@ -13790,31 +13790,31 @@ li {
           box-shadow: none;
 }
 .btn-check:focus + .btn-primary {
-  color: #ffffff;
-  background-color: #DC143C;
-  border-color: #800000;
+  color: #333333;
+  background-color: #d90000;
+  border-color: #ffc035;
 }
 .btn-check:checked + .btn-primary {
-  color: #ffffff;
-  background-color: #DC143C;
-  border-color: #800000;
+  color: #333333;
+  background-color: #d90000;
+  border-color: #ffc035;
 }
 .btn-check:active + .btn-primary {
-  color: #ffffff;
-  background-color: #800000;
-  border-color: #800000;
+  color: #333333;
+  background-color: #ffc035;
+  border-color: #d90000;
 }
 
 .btn-primary.active {
-  color: #ffffff;
-  background-color: #DC143C;
-  border-color: #800000;
+  color: #333333;
+  background-color: #ffc035;
+  border-color: #d90000;
 }
 
 .show > .btn-primary.dropdown-toggle {
-  color: #ffffff;
-  background-color: #DC143C;
-  border-color: #800000;
+  color: #333333;
+  background-color: #ffc035;
+  border-color: #d90000;
 }
 
 /*---------------------------------------------------------------------------------
@@ -13828,7 +13828,7 @@ li {
   z-index: 16;
 }
 .ec-cc-style .cc-panel {
-  display: block !important;
+  display: none !important;
   margin-bottom: 5%;
   width: 300px;
   border-radius: 10px;
@@ -13898,7 +13898,7 @@ li {
   font-size: 13px;
   line-height: 18px;
   font-weight: 900;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   vertical-align: middle;
 }
@@ -13909,7 +13909,7 @@ li {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #800000;
+  stroke: #d90000;
   stroke-width: 2;
   -webkit-transform: translateX(-5px);
           transform: translateX(-5px);
@@ -13934,7 +13934,7 @@ li {
           box-shadow: 0 0 10px rgba(12, 12, 12, 0.3);
 }
 .ec-cc-style .cc-button:hover {
-  background-color: #DC143C;
+  background-color: #d90000;
   -webkit-box-shadow: 0px 0px 10px rgba(12, 12, 12, 0.5);
           box-shadow: 0px 0px 10px rgba(12, 12, 12, 0.5);
   -webkit-transition: all 0.3s ease-in-out;
@@ -13959,46 +13959,46 @@ li {
   z-index: 15;
 }
 .cc-right-bottom .cc-call-svg {
-  fill: #800000;
+  fill: #ffc035;
   width: 100%;
   padding: 9px;
 }
 
 .ec-cc-style .cc-panel {
-  background-color: #800000;
+  background-color: #d90000;
 }
 .ec-cc-style .cc-panel .cc-header {
-  background-color: #800000;
-  color: #ffffff;
+  background-color: #d90000;
+  color: #333333;
 }
 .ec-cc-style .cc-footer .cc-call-button svg {
-  stroke: #ffffff;
+  stroke: #ffc035;
 }
 .ec-cc-style .cc-footer .cc-call-button:before {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #800000;
+  background-color: #333333;
 }
 .ec-cc-style .cc-footer .cc-call-button:hover:before {
-  background-color: #ffc035;
+  background-color: #d90000;
 }
 .ec-cc-style .cc-footer .cc-call-button:hover span {
-  color: #ffffff;
+  color: #ffc035;
 }
 .ec-cc-style .cc-footer .cc-call-button:hover svg {
-  stroke: #ffb000;
+  stroke: #ffc035;
 }
 .ec-cc-style .cc-footer .cc-call-button span {
-  color: #fffff;
+  color: #333333;
 }
 .ec-cc-style .cc-button {
-  background-color: #800000;
+  background-color: #d90000;
 }
 .ec-cc-style .cc-button i {
-  color: #fff;
+  color: #333333;
 }
 .ec-cc-style .cc-body p {
-  color: #777;
+  color: #333333;
 }
 
 /*-------------------------------------------------
@@ -14018,16 +14018,16 @@ li {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 10px 10px;
-  border-bottom: 1px solid #dc143c;
+  border-bottom: 1px solid #ffc035;
 }
 .modal-dialog .modal-header span {
   font-size: 24px;
-  color: #800000;
+  color: #d90000;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 .modal-dialog .modal-header span:hover {
-  color: #dc143c;
+  color: #333333;
 }
 .modal-dialog .qty-nav-thumb {
   padding: 0 30px;
@@ -14039,10 +14039,10 @@ li {
   transition: all 0.3s ease 0s;
 }
 .modal-dialog .qty-nav-thumb .slick-slide:hover img {
-  border-color: #dc143c;
+  border-color: #ffc035;
 }
 .modal-dialog .qty-nav-thumb .slick-slide.slick-current img {
-  border-color: #dc143c;
+  border-color: #ffc035;
 }
 .modal-dialog .qty-nav-thumb .slick-arrow {
   height: 100%;
@@ -15567,7 +15567,7 @@ div#ec_news_signup {
 }
 
 /*-------------------------------------------------
-   Demo 9 Page CSS
+    Page STYLE CSS
 ---------------------------------------------------*/
 /*---------------------------------------------------------------------------------
     Common CSS
